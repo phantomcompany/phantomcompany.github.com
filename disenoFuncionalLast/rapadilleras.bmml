@@ -1,0 +1,115 @@
+<mockup version="1.0" skin="sketch" measuredW="1283" measuredH="774" mockupW="1147" mockupH="763">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="136" y="11" w="1147" h="763" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Window%20Name</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::MenuBar" x="136" y="35" w="1147" h="30" measuredW="204" measuredH="29" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>File%2C%20Edit%2C%20View%2C%20Help</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="136" y="61" w="1147" h="692" measuredW="450" measuredH="400" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Image" x="475" y="165" w="220" h="80" measuredW="512" measuredH="150" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../dise%25c3%25b1oHtml1/Contenido/Logo_Levis.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::ButtonBar" x="475" y="245" w="440" h="29" measuredW="439" measuredH="29" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>%2C%2C%2C</hrefs>
+        <selectedIndex>1</selectedIndex>
+        <text>Home%20%20%2CProductos%20%20%20%20%20%20%2CCont%E1ctenos%2CMapa%20del%20Sitio</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::TextArea" x="695" y="165" w="227" h="80" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Im%E1genes%20Animadas%20de%20los%20productos</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::ButtonBar" x="475" y="269" w="398" h="29" measuredW="275" measuredH="29" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>%2C%2C%2C</hrefs>
+        <selectedIndex>1</selectedIndex>
+        <text>Balanzas%2C%20Raspadilleras%2CRepuestos</text>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Canvas" x="475" y="313" w="447" h="282" measuredW="100" measuredH="70" zOrder="7" locked="false" isInGroup="-1"/>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Label" x="513" y="326" w="-1" h="-1" measuredW="67" measuredH="21" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Some%20text</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Label" x="661" y="325" w="-1" h="-1" measuredW="67" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Some%20text</text>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Label" x="808" y="325" w="-1" h="-1" measuredW="67" measuredH="21" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Some%20text</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Image" x="502" y="364" w="91" h="120" measuredW="196" measuredH="226" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./raspa1.jpeg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Image" x="649" y="364" w="91" h="120" measuredW="300" measuredH="150" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../dise%25c3%25b1oHtml1/Contenido/Raspadilleras/Raspadilleras2.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::Image" x="795" y="364" w="91" h="120" measuredW="300" measuredH="150" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../dise%25c3%25b1oHtml1/Contenido/Raspadilleras/Raspadilleras3.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::TextArea" x="494" y="484" w="108" h="96" measuredW="200" measuredH="140" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Descripcion%3A%0A%20%0A%20%0A%20%0APrecio%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::TextArea" x="641" y="484" w="108" h="96" measuredW="200" measuredH="140" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Descripcion%3A%0A%20%0A%20%0A%20%0APrecio%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::TextArea" x="787" y="484" w="108" h="96" measuredW="200" measuredH="140" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Descripcion%3A%0A%20%0A%20%0A%20%0APrecio%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::TextArea" x="695" y="616" w="227" h="56" measuredW="200" measuredH="140" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>S%EDguenos%20en%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::Image" x="778" y="631" w="30" h="30" measuredW="30" measuredH="30" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../dise%25c3%25b1oHtml1/Estilo/facebook.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::Image" x="812" y="631" w="30" h="30" measuredW="30" measuredH="30" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../dise%25c3%25b1oHtml1/Estilo/twitter.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::TextArea" x="475" y="615" w="220" h="57" measuredW="200" measuredH="140" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Im%E1genes%20Animadas</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

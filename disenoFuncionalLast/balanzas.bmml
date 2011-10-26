@@ -1,0 +1,159 @@
+<mockup version="1.0" skin="sketch" measuredW="1283" measuredH="774" mockupW="1147" mockupH="763">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="136" y="11" w="1147" h="763" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Window%20Name</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::MenuBar" x="136" y="35" w="1147" h="30" measuredW="204" measuredH="29" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>File%2C%20Edit%2C%20View%2C%20Help</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="136" y="61" w="1147" h="692" measuredW="450" measuredH="400" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Image" x="475" y="165" w="220" h="80" measuredW="512" measuredH="150" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../dise%25c3%25b1oHtml1/Contenido/Logo_Levis.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::ButtonBar" x="475" y="245" w="440" h="29" measuredW="439" measuredH="29" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>%2C%2C%2C</hrefs>
+        <selectedIndex>1</selectedIndex>
+        <text>Home%20%20%2CProductos%20%20%20%20%20%20%2CCont%E1ctenos%2CMapa%20del%20Sitio</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::TextArea" x="695" y="165" w="227" h="80" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Im%E1genes%20Animadas%20de%20los%20productos</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::TextArea" x="475" y="334" w="206" h="283" measuredW="200" measuredH="140" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::TextArea" x="695" y="617" w="220" h="56" measuredW="200" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>up</state>
+        <text>S%EDguenos%20en%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Image" x="778" y="632" w="30" h="30" measuredW="30" measuredH="30" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../dise%25c3%25b1oHtml1/Estilo/facebook.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Image" x="818" y="632" w="30" h="30" measuredW="30" measuredH="30" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../dise%25c3%25b1oHtml1/Estilo/twitter.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::ButtonBar" x="475" y="269" w="398" h="29" measuredW="275" measuredH="29" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>%2C%2C%2C</hrefs>
+        <selectedIndex>0</selectedIndex>
+        <text>Balanzas%2C%20Raspadilleras%2CRepuestos</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::TextArea" x="716" y="334" w="206" h="282" measuredW="200" measuredH="140" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Image" x="490" y="349" w="58" h="57" measuredW="150" measuredH="100" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../dise%25c3%25b1oHtml1/Contenido/Balanzas/Balanzas_Electronicas1.JPG</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="21" controlTypeID="com.balsamiq.mockups::TextArea" x="563" y="348" w="107" h="57" measuredW="200" measuredH="140" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>tanto%20en%20el%20%E1mbito%20tradicional%20como%20de%20Internet.%20Estamos%20especializados%20en%20hacer%20crecer%20negocios%20a%20nivel%20nacional%20e%20internacional%20por%20lo%20que%20asesoramos%20a%20empresas%20de%20cualquier%20tama%F1o%20y%20actividad.</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::TextArea" x="563" y="532" w="107" h="57" measuredW="200" measuredH="140" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>tanto%20en%20el%20%E1mbito%20tradicional%20como%20de%20Internet.%20Estamos%20especializados%20en%20hacer%20crecer%20negocios%20a%20nivel%20nacional%20e%20internacional%20por%20lo%20que%20asesoramos%20a%20empresas%20de%20cualquier%20tama%F1o%20y%20actividad.</text>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::TextArea" x="486" y="446" w="107" h="57" measuredW="200" measuredH="140" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>tanto%20en%20el%20%E1mbito%20tradicional%20como%20de%20Internet.%20Estamos%20especializados%20en%20hacer%20crecer%20negocios%20a%20nivel%20nacional%20e%20internacional%20por%20lo%20que%20asesoramos%20a%20empresas%20de%20cualquier%20tama%F1o%20y%20actividad.</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::TextArea" x="735" y="531" w="107" h="57" measuredW="200" measuredH="140" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>tanto%20en%20el%20%E1mbito%20tradicional%20como%20de%20Internet.%20Estamos%20especializados%20en%20hacer%20crecer%20negocios%20a%20nivel%20nacional%20e%20internacional%20por%20lo%20que%20asesoramos%20a%20empresas%20de%20cualquier%20tama%F1o%20y%20actividad.</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::TextArea" x="808" y="446" w="107" h="57" measuredW="200" measuredH="140" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>tanto%20en%20el%20%E1mbito%20tradicional%20como%20de%20Internet.%20Estamos%20especializados%20en%20hacer%20crecer%20negocios%20a%20nivel%20nacional%20e%20internacional%20por%20lo%20que%20asesoramos%20a%20empresas%20de%20cualquier%20tama%F1o%20y%20actividad.</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::TextArea" x="735" y="348" w="107" h="57" measuredW="200" measuredH="140" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>tanto%20en%20el%20%E1mbito%20tradicional%20como%20de%20Internet.%20Estamos%20especializados%20en%20hacer%20crecer%20negocios%20a%20nivel%20nacional%20e%20internacional%20por%20lo%20que%20asesoramos%20a%20empresas%20de%20cualquier%20tama%F1o%20y%20actividad.</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Label" x="475" y="307" w="206" h="21" measuredW="136" measuredH="21" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <bold>true</bold>
+        <color>0</color>
+        <state>up</state>
+        <text>Balanzas%20Electr%F3nicas</text>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Label" x="716" y="306" w="206" h="21" measuredW="125" measuredH="21" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <bold>true</bold>
+        <text>Balanzas%20Mec%E1nicas</text>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::Image" x="602" y="446" w="58" h="57" measuredW="150" measuredH="100" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../dise%25c3%25b1oHtml1/Contenido/Balanzas/Balanzas_Electronicas2.JPG</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Image" x="490" y="531" w="58" h="57" measuredW="150" measuredH="100" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../dise%25c3%25b1oHtml1/Contenido/Balanzas/Balanzas_Electronicas3.JPG</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Image" x="741" y="446" w="58" h="57" measuredW="150" measuredH="100" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../dise%25c3%25b1oHtml1/Contenido/Balanzas/Balanzas_Mecanicas2.JPG</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Image" x="848" y="348" w="58" h="57" measuredW="150" measuredH="100" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../dise%25c3%25b1oHtml1/Contenido/Balanzas/Balanzas_Mecanicas1.JPG</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Image" x="848" y="531" w="58" h="57" measuredW="315" measuredH="460" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../dise%25c3%25b1oHtml1/Contenido/Balanzas/Balanzas_Mecanicas3.JPG</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::TextArea" x="475" y="617" w="220" h="56" measuredW="200" measuredH="140" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Im%E1genes%20Animadas</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
