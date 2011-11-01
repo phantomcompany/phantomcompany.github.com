@@ -1,0 +1,52 @@
+#contenedor_productos{
+	width: 800px;
+	font: 0.5em, Arial, Verdana, sans-serif;
+}
+
+#titulo_productos hr{
+	border: 0px;
+	height:1px;
+	color:black;
+	background-color: black;
+}
+
+.producto hr{
+	border: 0px;
+	height:1px;
+	color:silver;
+	background-color: silver;
+}
+
+.producto_info{
+	height: 100px;	
+}
+
+.producto_info p{
+	color: grey;
+	line-height: 0.5em;
+}
+
+.producto_info img{
+	padding-right: 1em;
+	float:left;
+}
+
+.producto_descripcion a{
+	display:block;
+	text-align: right;
+}
+
+#navegacion{
+	text-align:center;
+	
+	list-style: none;
+	margin:0px;
+	padding:0px;
+	
+}
+
+#navegacion li{
+	margin:0.3em;
+	float:left;
+	text-align: center;
+}

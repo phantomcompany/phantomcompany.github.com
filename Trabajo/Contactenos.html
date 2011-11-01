@@ -1,0 +1,134 @@
+<html>
+	<head>
+	<title>Cóntactenos</title>
+	<link href="general.css" rel="stylesheet" type="text/css"/>	
+	<script type='text/javascript' src='jquery.js'></script>
+	<script type='text/javascript' src='barraMenu.js'></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script type="text/javascript" src="Gmaps.js"></script>
+	
+	<script type="text/javascript" >
+		var map;
+			$(document).ready(function()
+			{
+				map=new GMaps(
+				{
+					div: '#map',
+					lat: -12.060149,
+					lng: -76.993649
+					
+				});
+			map.setContextMenu(
+			{
+				control: 'map',
+				options: 
+				[{
+					title: 'Add Marker',
+					name: 'add_marker',
+					action: function(e)
+					{
+						this.addMarker
+						({
+							lat: e.latLng.lat(),
+							lng: e.latLng.lng(),
+							title: 'New Marker'
+						});
+					this.hideContextMenu();
+					}
+				},
+				{
+					title: 'Center here',
+					name: 'center_here',
+					action: function(e)
+					{
+						this.setCenter(e.latLng.lat(),e.latLng.lng());
+					}	
+				},]
+			
+			});
+			});
+		</script>
+	</head>
+	<body>
+	<div id="contenedor" >
+	<div id="banner" >
+	</div>
+	<div id="animacionProductos">
+	</div>
+		<div id="menu">
+		<ul id="lista">
+		 <li ><a href="home.html">Home</a>
+		 
+			<ul >
+			  <li><a href="Quienes_Somos.html">Quienes Somos</a></li>
+			  <li><a href="Mision_Vision.html">Misión y Visión</a></li>
+			  <li><a href="publico_obj.html">Público Objetivo</a></li>
+			  
+			</ul>
+			
+		 </li>
+	        <li><a href="#">Producto</a>
+		 
+			<ul >
+			  <li><a href="Balanzas.html">Balanzas</a></li>
+			  <li><a href="raspadilleras.html">Raspadilleras</a></li>
+			  <li><a href="repuestos.html">Repuestos</a></li>
+			  
+			</ul>
+			
+		 </li>	
+		<li><a href="Contactenos.html">Contáctenos</a></li>
+		<li><a href="Mapa_Sitio.html">Mapa del Sitio</a></li>
+		</ul>
+	</div>
+	<div id="informacionP" >
+		<ul >
+			<li> Razon Social: Balanzas Levis SRLTDA </li>
+			<li> R.U.C : 20377496052 </li>
+			<li> Direccion : Jr. Manuel e Bonnemaison Nro. 175  </li>
+			<li> Teléfonos : 3260641 </li>
+			<li> Correo : balanzas_levis@hotmail.com </li>
+		</ul>
+		<h3>Realize sus consultas aquí:</h3>
+	<div id="form">
+		<form action="" method="post">
+		 <label class="nombre" for="texto" >Nombre:</label>
+		 <input class="nombre" type="text" id="nombreText" name="nombre" /><br />
+		 
+		 <label class="apellidos" for="texto" >Apellidos:</label>
+		 <input class="apellidos" type="text" id="apellidoText" name="nombre" /><br />
+		 
+		 <label class="email" for="e-mail">E-mail:</label>
+		 <input class="email" type="e-mail" id="emailText" name="e-mail" /><br />
+		
+		<p>Consulta:</p>
+		<textarea id="textoConsulta" name="campo1" > </textarea> <BR>
+		</form>
+		
+		<INPUT id="botonEnviar"  type="submit" value="Enviar"> 
+		<INPUT id="botonBorrar"  type="reset" value="Borrar">
+	</div>
+	</div>
+	<div class="mainImage"id="contacto">
+			<img src="Estilo/Imagen_Contactenos.jpg" alt="" />
+	</div>
+	<div class="row">
+			<div class="spam11">
+				<div id="map"></div>
+			</div>
+		</div>
+	
+	
+	<div id="Siguenos">	
+		<p> Síguenos en:</p>
+			<a id="facebook" href="http://www.facebook.com" target="_blank"><img src="Estilo/facebook.jpg" alt="" /></a>
+			<a id="twitter" href="http://www.twitter.com" target="_blank"><img src="Estilo/twitter.jpg" alt="" /></a>	
+	</div>
+	<div id="animacionEmpresa">
+	</div>
+	
+	</div>
+		
+		
+	</body>
+</html>

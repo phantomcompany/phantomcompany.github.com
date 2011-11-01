@@ -1,0 +1,570 @@
+	*{
+	font-family:Verdana;
+	color:#F4A817;
+	}
+	body{
+	background-image: url('Estilo/fondo1.jpg');
+	background-repeat: no-repeat;
+	}
+	
+	#contenedor{
+	width:1018;
+	margin: 0 auto;
+	
+	
+	}
+	
+	#banner{
+	background-image:url('Contenido/Logo_Levis.jpg');
+	position:absolute;
+	width:512px;
+	height:150px;
+	
+	}
+	#animacionProductos{
+	position:absolute;
+	margin-left:512px;
+	width:512px;
+	height:150px;
+	margin-left: 512px;	
+	}		
+	#menu{
+	position:absolute;
+	width:1024px;
+	height:30px;
+	margin-top:150px;
+	}
+	#lista {
+	margin:0px;
+	padding:0px;
+	list-style-type:none; 
+	}
+	#lista li{
+	
+	float:left;
+	width:254px;
+	height:30px;
+	}
+	#lista li a{
+	display:block;
+	background-color:gray;
+	
+	width:253px;
+	height:30px;
+	text-align:center;
+	font-size:20px;
+	border: 2px groove darkred;
+	text-decoration:none;
+	}
+	
+	
+	
+	#lista li a:hover{
+	
+	color:darkred;
+	background-color:#FFF5C3;
+	
+	
+	}
+	#lista li a:active{
+	color:black;
+	
+	}
+	#lista li li {
+	
+	width:150px;
+	height:30px;
+
+	}
+	#lista li li a {
+	
+	width:170px;
+	height:25px;
+	font-size:14px;
+	}	
+	
+	
+	ul#lista
+	{
+	   list-style:none;
+	}
+	ul#lista ul /* Para todos los ul debajo del ul.menu */
+	{
+	   display:none;
+	   list-style:none;
+	}
+	ul#lista li:hover > ul /* Esto afecta a todos los ul inmediatamente debajo (el > ) de un li que a su vez esté dentro de un ul#lista*/
+	{
+	   display:inline;
+	   position:absolute;
+	
+	}
+	
+	
+	.mainText{
+	
+	font-size: 18px;
+	position:absolute;
+	margin-top:195px;
+	width:500;
+	height:400;
+	
+	
+	}
+	
+	.mainText h2{
+	color:#F4A817;
+	
+	}
+	
+	p{
+	text-align: justify;
+	color:#9BD7D5;
+	
+	
+	
+	}
+	.mainImage{	
+	margin-top:230px;
+	width:400px;
+	height:300px;
+	margin-left:600px ;
+	position: fixed;
+	
+	}
+	
+	
+	a :hover
+	{
+		background: darked;
+		color: gray;
+	}
+	  .mainText p::first-letter
+	{
+	font-size:30px;
+	
+	}
+	
+	
+	#informacionP{
+	position:absolute;
+	margin-top: 210px;
+	width: 550px;
+	height: 415px;
+	font-size: 20px;
+	text-align:center;
+	font-size: 14px;
+	}
+	#informacionP li{
+	 list-style-type:none;
+	
+	}
+	#form{
+		font-size: 16px;
+		text-align:left;
+		 position:absolute;
+		 width: 500px;
+		 height: 200px;
+		 margin-top:30px;
+		 margin-left:25px;
+		
+	}
+	#form p{
+		color:#F4A817;;
+	}
+	.nombre
+	{
+		margin-top:5px;
+	}
+	.email
+	{
+		margin-top: 10px;
+	}
+	.apellidos
+	{
+		margin-top: 15px;
+	}
+	#nombreText{
+		margin-left:100px;
+		color:black;
+	}
+	#emailText{
+		margin-left:110px;
+		color:black;
+	}
+	#apellidoText
+	{
+		margin-left:87px;
+		color:black;
+	}
+	#textoConsulta
+	{
+		width: 300px;
+		height: 100px;
+		margin-left:100px;
+		color:black;
+		margin-top: -15px;
+	}
+	#botonEnviar{
+		position:absolute;
+		margin-left:190px;
+		margin-top: 15px;
+		color:black;
+	}
+	#botonBorrar{
+		position:absolute;
+		margin-left:270px;
+		margin-top: 15px;
+		color:black;
+	}
+	#contacto{
+		position:absolute;
+		width: 282px;
+		height: 180px;
+		margin-left: 600px;
+		margin-top:210px;
+		
+	}
+	/* Contactenos */
+	#map{
+	position:absolute;
+	display:block;
+	width:282;
+	height: 180px;
+	
+	margin-left: 600px;
+	margin-top: 410px;
+	-moz-box-shadow: 0px 5px 20px #ccc;
+	-webkit-box-shadow: 0px 5px 20px #ccc;
+	box-shadow: 0px 5px 20px #ccc;
+}
+
+	/* Mapa del Sitio*/
+	#listaMS{
+		list-style-type: square;
+		line-height: 2em;
+		color:green;
+	}
+	#listaMS  a li 
+	{
+		text-decoration: none;
+	}
+	#listaMS  ul a 
+	{
+		text-decoration: none;
+	}
+	#mapaSite{
+		position:absolute;
+		width:500px;
+		height: 400px;
+		font-size: 20px;
+		margin-top:210px;
+		margin-left:70px;
+	}
+	#imageSite{
+		position:absolute;
+		width: 251px;
+		height: 201px;
+		margin-top: 300px;
+		margin-left: 630px;
+	}
+	/* Pie de Pagina*/
+	#animacionEmpresa{
+		position:absolute;
+		margin-top:640px;
+		width: 510;
+		height: 70px;
+	}
+	#Siguenos{
+		position:absolute;
+		margin-top:640;
+		width: 450;
+		height: 100px;
+		margin-left: 514px;
+		
+	}
+	
+	
+	#facebook{
+	
+	
+		margin-left: 120px;
+		position:absolute;	
+		
+	}
+	#twitter{
+	
+		margin-left: 190px;
+		position:absolute;
+
+	}
+	/* Productos >> Balanzas */
+	.hs{
+	color:#F4A817;
+	position:absolute;
+	}
+	
+	
+	#balanzasE{
+		margin-top: 230px;
+		position:absolute;
+		width:500px;
+		height:400px;
+		
+		
+	}
+		#balanzasE p{
+		 
+		 font-weight: bold;
+		 text-align: justify;
+		}
+		#balanzasM p{
+		
+		 font-weight: bold;
+			 text-align: justify;
+		}
+	
+	#balanzasEh{
+		margin-top: 200px;
+		margin-left:120px;
+	}
+	#balanzasE1{
+		margin-left:30px;
+		position:absolute;
+		margin-top:25px;
+		width: 150px;
+		height:100px;
+	}
+	#balanzaE1t{
+		margin-left:195px;
+		position:absolute;
+		margin-top:25px;
+		width: 275px;
+		height:100px;
+	}
+	#balanzasE2{
+		margin-left: 320px;
+		position:absolute;
+		margin-top:150px;
+		width: 150px;
+		height:100px;
+	}
+	#balanzaE2t{	
+		margin-left:30px;
+		position:absolute;
+		margin-top:150px;
+		width: 275px;
+		height:100px;
+		}
+	#balanzasE3{
+		margin-left:30px;
+		position:absolute;
+		margin-top:275px;
+		width: 150px;
+		height:100px;
+	}
+	#balanzaE3t{
+		margin-left:195px;
+		position:absolute;
+		margin-top:275px;
+		width: 275px;
+		height:100px;
+	}
+	#balanzasM{
+		margin-left:524px;
+		margin-top: 230px;
+		position:absolute;
+		width:500px;
+		height:400px;
+		
+	}
+	#balanzasMh{
+		position:absolute;
+		margin-top: 200px;
+		margin-left:620px;
+	}
+	#balanzasM1{
+		margin-left: 320px;
+		position:absolute;
+		margin-top:25px;
+		width: 150px;
+		height:100px;
+	}
+	#balanzaM1t{
+		margin-left:30px;
+		position:absolute;
+		margin-top:25px;
+		width: 275px;
+		height:100px;
+	}
+	#balanzasM2{
+		margin-left:30px;
+		position:absolute;
+		margin-top:150px;
+		width: 150px;
+		height:100px;
+	}
+	#balanzaM2t{	
+		margin-left:195px;
+		position:absolute;
+		margin-top:150px;
+		width: 275px;
+		height:100px;
+	}
+	#balanzasM3{
+		margin-left: 320px;
+		position:absolute;
+		margin-top:275px;
+		width: 150px;
+		height:100px;
+	}
+	#balanzaM3t{
+		margin-left:30px;
+		position:absolute;
+		margin-top:275px;
+		width: 275px;
+		height:100px;
+	}
+	#raspadillera{
+		margin-top:230px;
+		position:absolute;
+		width:1024px;
+		height: 400px;
+	}
+	
+	/* Productos >>  Raspadilleras */
+	#raspadillera1{
+		margin-left:31px;
+		position:absolute;
+		margin-top:90px;
+		width:300px;
+		height:150px;
+	}
+	#raspadillera1h{
+		position:absolute;
+		margin-top: 30px;
+		margin-left:60px;
+	}
+	#raspadillera1t{
+		margin-left:31px;
+		position:absolute;
+		margin-top:270px;
+		width:300px;
+		height:100px;
+	}
+	#raspadillera2{
+		margin-left:362px;
+		position:absolute;
+		margin-top:90px;
+		width:300px;
+		height:150px;
+	}
+	#raspadillera2h{
+	position:absolute;
+		margin-top: 30px;
+		margin-left:370px;
+		}
+	#raspadillera2t{
+		margin-left:362px;
+		position:absolute;
+		margin-top:270px;
+		width:300px;
+		height:100px;
+	}
+	#raspadillera3{
+		position:absolute;
+		margin-top:90px;
+		margin-left:693px;
+		width:300px;
+		height:150px;
+	}
+	#raspadillera3h{
+		position:absolute;
+		margin-top: 30px;
+		margin-left:740px;
+	}
+	#raspadillera3t{
+		position:absolute;
+		margin-top:270px;
+		margin-left:693px;
+		width:300px;
+		height:100px;
+		
+	}
+	
+	/* Productos >> Repuestos*/
+	#repuesto{
+		margin-top:230px;
+		position:absolute;
+		width:1024px;
+		height: 400px;
+		
+	}
+	#repuesto1{
+		margin-left:31px;
+		position:absolute;
+		margin-top:90px;
+		width:300px;
+		height:150px;
+		
+	}
+	#repuesto1h{
+		position:absolute;
+		margin-top: 30px;
+		margin-left:100px;
+	}
+	#repuesto1t{
+		margin-left:31px;
+		position:absolute;
+		margin-top:270px;
+		width:300px;
+		height:100px;
+	}
+	#repuesto2{
+		margin-left:362px;
+		position:absolute;
+		margin-top:90px;
+		width:300px;
+		height:150px;
+	}
+	#repuesto2h{
+	position:absolute;
+		margin-top: 30px;
+		margin-left:420px;}
+	#repuesto2t{
+		margin-left:362px;
+		position:absolute;
+		margin-top:270px;
+		width:300px;
+		height:100px;
+	}
+	#repuesto3{
+		position:absolute;
+		margin-top:90px;
+		margin-left:693px;
+		width:300px;
+		height:150px;
+	}
+	#repuesto3h{
+		position:absolute;
+		margin-top: 30px;
+		margin-left:740px;
+	}
+	#repuesto3t{
+		position:absolute;
+		margin-top:270px;
+		margin-left:693px;
+		width:300px;
+		height:100px;
+	}
+	.more{
+     clear:left;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
