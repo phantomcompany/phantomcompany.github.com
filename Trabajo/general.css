@@ -93,7 +93,7 @@
 	   display:none;
 	   list-style:none;
 	}
-	ul#lista li:hover > ul /* Esto afecta a todos los ul inmediatamente debajo (el > ) de un li que a su vez esté dentro de un ul#lista*/
+	ul#lista li:hover > ul /* Esto afecta a todos los ul inmediatamente debajo (el > ) de un li que a su vez estï¿½ dentro de un ul#lista*/
 	{
 	   display:inline;
 	   position:absolute;
@@ -261,6 +261,18 @@
 		margin-top:210px;
 		margin-left:70px;
 	}
+	#listaMS  a
+	{
+		
+		text-decoration: none;
+	}
+	
+	#listaMS  a li:hover
+	{
+		color:darkred;
+		text-decoration: none;
+	}
+	
 	#imageSite{
 		position:absolute;
 		width: 251px;
