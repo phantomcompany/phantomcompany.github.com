@@ -1,14 +1,16 @@
-	*{
+*{
 	font-family:Verdana;
 	color:#F4A817;
 	}
 	body{
-	background-image: url('Estilo/fondo1.jpg');
+	background-color:red;
 	background-repeat: no-repeat;
 	}
 	
 	#contenedor{
-	width:1018;
+	background-image: url('Estilo/fondo1.jpg');
+	height:780px;
+	width:1024;
 	margin: 0 auto;
 	
 	
@@ -24,9 +26,10 @@
 	#animacionProductos{
 	position:absolute;
 	margin-left:512px;
-	width:512px;
+	width:505px;
 	height:150px;
 	margin-left: 512px;	
+	border:1px solid black;
 	}		
 	#menu{
 	position:absolute;
@@ -62,7 +65,7 @@
 	#lista li a:hover{
 	
 	color:darkred;
-	background-color:#FFF5C3;
+	
 	
 	
 	}
@@ -136,10 +139,10 @@
 	
 	a :hover
 	{
-		background: darked;
-		color: gray;
+		
+		color:darkred;
 	}
-	  .mainText p::first-letter
+	.mainText p::first-letter
 	{
 	font-size:30px;
 	
@@ -155,10 +158,20 @@
 	text-align:center;
 	font-size: 14px;
 	}
+	#informacionP li a:hover{
+	color:darkred;
+	
+	
+	}
+	
+	
 	#informacionP li{
 	 list-style-type:none;
 	
 	}
+		
+	
+	
 	#form{
 		font-size: 16px;
 		text-align:left;
@@ -222,7 +235,7 @@
 		width: 282px;
 		height: 180px;
 		margin-left: 600px;
-		margin-top:210px;
+		margin-top:240px;
 		
 	}
 	/* Contactenos */
@@ -233,7 +246,7 @@
 	height: 180px;
 	
 	margin-left: 600px;
-	margin-top: 410px;
+	margin-top: 440px;
 	-moz-box-shadow: 0px 5px 20px #ccc;
 	-webkit-box-shadow: 0px 5px 20px #ccc;
 	box-shadow: 0px 5px 20px #ccc;
@@ -283,19 +296,24 @@
 	/* Pie de Pagina*/
 	#animacionEmpresa{
 		position:absolute;
-		margin-top:640px;
-		width: 510;
-		height: 70px;
+		margin-top:670px;
+		width: 500;
+		height: 100px;
+		border:1px solid #F4A817;
 	}
 	#Siguenos{
 		position:absolute;
-		margin-top:640;
-		width: 450;
+		margin-top:670;
+		width: 500;
 		height: 100px;
-		margin-left: 514px;
+		margin-left: 520px;
+		border:1px solid #F4A817;
 		
 	}
+	#Siguenos a:hover{
+	border:1px solid #F4A817;
 	
+	}
 	
 	#facebook{
 	
@@ -572,11 +590,3 @@
 	.more{
      clear:left;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
