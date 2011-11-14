@@ -1,92 +1,95 @@
-		*
+	*
 	{
-	font-family:Verdana;
-	color:#F4A817;
+		font-family:Verdana;
+		color:#F4A817;
 	}
 	body{
-	background-color:black;
-	background-repeat: no-repeat;
+		background-color:black;
+		background-repeat: no-repeat;
+		
 	}
 	
 	#contenedor
 	{
-	background-image: url('Estilo/fondo1.jpg');
-	height:780px;
-	width:1024;
-	margin: 0 auto;
+		background-image: url('estilo/Fuego-naranja.jpg');
+		height:780px;
+		width:1024;
+		margin: 0 auto;
 	}
-	
+	#contenedor img
+	{
+		border: 2px solid #F4A817;
+	}
+	#contenedor img:hover
+	{
+		border: 2px solid #9BD7D5;
+	}
 	#banner
 	{
-	background-image:url('Contenido/Logo_Levis.jpg');
-	position:absolute;
-	width:512px;
-	height:150px;
-	
+		background-image:url('Contenido/Logo_Levis.jpg');
+		position:absolute;
+		width:512px;
+		height:150px;
 	}
-	#animacionProductos
+	#animacionEmpresa
 	{
-	position:absolute;
-	margin-left:512px;
-	width:505px;
-	height:150px;
-	margin-left: 512px;	
-	border:1px solid black;
+		position:absolute;
+		margin-left:512px;
+		width:505px;
+		height:150px;
+		margin-left: 512px;	
+		border:1px solid black;
 	}		
 	#menu
 	{
-	position:absolute;
-	width:1024px;
-	height:30px;
-	margin-top:150px;
+		position:absolute;
+		width:1024px;
+		height:30px;
+		margin-top:150px;
+		font-weight: bold;
 	}
 	#lista
 	{
-	margin:0px;
-	padding:0px;
-	list-style-type:none; 
+		margin:0px;
+		padding:0px;
+		list-style-type:none; 
 	}
 	#lista li
 	{	
-	float:left;
-	width:254px;
-	height:30px;
+		float:left;
+		width:254px;
+		height:30px;
 	}
 	#lista li a
 	{
-	display:block;
-	background-color:gray;
-	width:253px;
-	height:30px;
-	text-align:center;
-	font-size:20px;
-	border: 2px groove darkred;
-	text-decoration:none;
+		display:block;
+		background-color:gray;
+		width:253px;
+		height:30px;
+		text-align:center;
+		font-size:20px;
+		border: 2px groove darkred;
+		text-decoration:none;
 	}
-	
-	
-	
 	#lista li a:hover
 	{	
-	color:darkred;	
+		color:darkred;	
 	}
 	#lista li a:active
 	{
-	color:black;	
+		color:black;	
 	}
 	#lista li li
 	{	
-	width:150px;
-	height:30px;
+		width:150px;
+		height:30px;
 	}
 	#lista li li a
 	{	
-	width:170px;
-	height:25px;
-	font-size:14px;
+		width:170px;
+		height:25px;
+		font-size:14px;
 	}	
-	
-	
 	ul#lista
 	{
 	   list-style:none;
@@ -100,71 +103,57 @@
 	{
 	   display:inline;
 	   position:absolute;
-	
 	}
-	
-	
 	.mainText
 	{
-	padding-left: 10px;
-	padding-right: 10px;
-	font-size: 18px;
-	position:absolute;
-	margin-top:195px;
-	width:490;
-	height:400;	
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 18px;
+		position:absolute;
+		margin-top:195px;
+		width:490;
+		height:400;	
 	}
-	
 	.mainText h2
 	{
-	color:#F4A817;	
+		color:#F4A817;	
 	}
-	
 	p
 	{
-	text-align: justify;
-	color:#9BD7D5;	
+		text-align: justify;
+		color:#9BD7D5;	
 	}
 	.mainImage
 	{	
-	margin-top:230px;
-	width:490px;
-	height:400px;
-	margin-left:530px ;
-	position: absolute;	
+		margin-top:230px;
+		width:490px;
+		height:400px;
+		margin-left:530px ;
+		position: absolute;	
 	}
-	
-	
-	
 	.mainText p::first-letter
 	{
-	font-size:30px;	
+		font-size:30px;	
 	}
-	
-	
 	#informacionP
 	{
-	position:absolute;
-	margin-top: 210px;
-	width: 550px;
-	height: 415px;
-	font-size: 20px;
-	text-align:center;
-	font-size: 14px;
+		position:absolute;
+		margin-top: 210px;
+		width: 550px;
+		height: 415px;
+		font-size: 20px;
+		text-align:center;
+		font-size: 14px;
 	}
 	#informacionP li a:hover
 	{
-	color:darkred;
+		color:darkred;
 	}
-	
-	
+
 	#informacionP li
 	{
-	 list-style-type:none;	
+		list-style-type:none;	
 	}
-		
-	
-	
 	#form
 	{
 		font-size: 16px;
@@ -239,16 +228,15 @@
 	/* Contactenos */
 	#map
 	{
-	position:absolute;
-	display:block;
-	width:282;
-	height: 180px;
-	
-	margin-left: 600px;
-	margin-top: 440px;
-	-moz-box-shadow: 0px 5px 20px #ccc;
-	-webkit-box-shadow: 0px 5px 20px #ccc;
-	box-shadow: 0px 5px 20px #ccc;
+		position:absolute;
+		display:block;
+		width:282;
+		height: 180px;
+		margin-left: 600px;
+		margin-top: 440px;
+		-moz-box-shadow: 0px 5px 20px #ccc;
+		-webkit-box-shadow: 0px 5px 20px #ccc;
+		box-shadow: 0px 5px 20px #ccc;
 	}
 
 	/* Mapa del Sitio*/
@@ -277,7 +265,6 @@
 	}
 	#listaMS  a
 	{
-		
 		text-decoration: none;
 	}
 	
@@ -296,7 +283,7 @@
 		margin-left: 630px;
 	}
 	/* Pie de Pagina*/
-	#animacionEmpresa
+	#animacionProducto
 	{
 		position:absolute;
 		margin-top:670px;
@@ -311,43 +298,31 @@
 		width: 500;
 		height: 100px;
 		margin-left: 520px;
-		border:1px solid #F4A817;
-		
 	}
 	#Siguenos a:hover
 	{
-	border:1px solid #F4A817;
-	
+		border:1px solid #F4A817;
 	}
 	
 	#facebook
 	{
-	
-	
 		margin-left: 120px;
-		position:absolute;	
-		
+		position:absolute;
 	}
 	#twitter
 	{
-	
 		margin-left: 190px;
 		position:absolute;
-
 	}
 	/* Productos >> Balanzas */
 	.hs
 	{
-	color:#F4A817;
-	position:absolute;
+		color:#F4A817;
+		position:absolute;
 	}
 	.productos img:hover{
-	border:red 1px solid;
-	
+		border:red 1px solid;
 	}
-	
-	
-	
 	#balanzasE
 	{
 		margin-top: 230px;
@@ -358,18 +333,16 @@
 		overflow-x:hidden;
 		
 	}
-		#balanzasE p
-		{
-		 
-		 font-weight: bold;
-		 text-align: justify;
-		}
-		#balanzasM p
-		{
-		
-		 font-weight: bold;
-			 text-align: justify;
-		}
+	#balanzasE p
+	{ 
+		font-weight: bold;
+		text-align: justify;
+	}
+	#balanzasM p
+	{
+		font-weight: bold;
+	    text-align: justify;
+	}
 	
 	#balanzasEh
 	{
@@ -440,12 +413,6 @@
 		width: 275px;
 		height:100px;
 	}
-	
-	
-	
-	
-	
-	
 	#balanzasM
 	{
 		margin-left:524px;
@@ -454,16 +421,13 @@
 		width:500px;
 		height:400px;
 		overflow:scroll;
-		overflow-x:hidden;
-			
-		
+		overflow-x:hidden;	
 	}
 	#balanzasMh
 	{
 		position:absolute;
 		margin-top: 200px;
 		margin-left:620px;
-	
 	}
 	#balanzasM1
 	{
@@ -513,7 +477,7 @@
 		width: 275px;
 		height:100px;
 	}
-		#balanzasM4
+	#balanzasM4
 	{
 		margin-left: 30px;
 		position:absolute;
@@ -529,13 +493,6 @@
 		width: 275px;
 		height:100px;
 	}
-	
-	
-	
-	
-	
-	
-	
 	#raspadillera
 	{
 		margin-top:230px;
@@ -577,7 +534,7 @@
 	}
 	#raspadillera2h
 	{
-	position:absolute;
+		position:absolute;
 		margin-top: 30px;
 		margin-left:370px;
 	}
@@ -655,7 +612,7 @@
 	}
 	#repuesto2h
 	{
-	position:absolute;
+		position:absolute;
 		margin-top: 30px;
 		margin-left:420px;
 	}
@@ -690,5 +647,5 @@
 	}
 	.more
 	{
-     		clear:left;
+     	clear:left;
 	}
