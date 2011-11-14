@@ -135,10 +135,7 @@
 	}
 	
 	
-	a :hover
-	{
-	color:darkred;
-	}
+	
 	.mainText p::first-letter
 	{
 	font-size:30px;	
@@ -344,7 +341,10 @@
 	color:#F4A817;
 	position:absolute;
 	}
+	.productos img:hover{
+	border:red 1px solid;
 	
+	}
 	
 	
 	
