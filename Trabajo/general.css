@@ -11,7 +11,7 @@
 	
 	#contenedor
 	{
-		background-image: url('estilo/Fuego-naranja.jpg');
+		background-image: url('Fuego-naranja.jpg');
 		height:780px;
 		width:1024;
 		margin: 0 auto;
@@ -162,11 +162,17 @@
 		 width: 500px;
 		 height: 200px;
 		 margin-top:30px;
-		 margin-left:25px;		
+		 margin-left:25px;	
+		
 	}
 	#form p
 	{
 		color:#F4A817;;
+	}
+	#form span{
+		color:#9BD7D5;
+		font-weight:bold;
+	
 	}
 	.nombre
 	{

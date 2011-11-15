@@ -5,6 +5,7 @@
 	<script type='text/javascript' src='jquery.js'></script>	
 	<script type='text/javascript' src='barraMenu.js'></script>
 	<script type='text/javascript' src='animacionEmpresa.js'></script>
+	<script type='text/javascript' src='formulario.js'></script>
 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
 	<script type="text/javascript" src="Gmaps.js"></script>
 	
@@ -94,21 +95,24 @@
 		<h3>Realize sus consultas aqu&iacute;:</h3>
 	<div id="form">
 		<form action="" method="post">
-		 <label class="nombre" for="texto" >Nombre:</label>
-		 <input class="nombre" type="text" id="nombreText" name="nombre" /><br />
+		 <label class="nombre" for="texto1" >Nombre:</label>
+		 <input class="nombre" type="text" id="nombreText" name="nombre" />
+		 <span class="alerta">Incomplete</span><br/>
 		 
-		 <label class="apellidos" for="texto" >Apellidos:</label>
-		 <input class="apellidos" type="text" id="apellidoText" name="nombre" /><br />
+		 <label class="apellidos" for="texto2" >Apellidos:</label>
+		 <input class="apellidos" type="text" id="apellidoText" name="nombre" />
+		 <span class="alerta">Incomplete</span><br/>
 		 
 		 <label class="email" for="e-mail">E-mail:</label>
-		 <input class="email" type="e-mail" id="emailText" name="e-mail" /><br />
+		 <input class="email" type="e-mail" id="emailText" name="e-mail" />
+		<span class="alerta">Incomplete</span><br/>
 		
 		<p>Consulta:</p>
 		<textarea id="textoConsulta" name="campo1" > </textarea> <BR>
 		</form>
 		
-		<INPUT id="botonEnviar"  type="submit" value="Enviar"> 
-		<INPUT id="botonBorrar"  type="reset" value="Borrar">
+		<INPUT id="botonEnviar"  type="button" Onclick="validarCampo();" value="Enviar"> 
+		<INPUT id="botonBorrar"  type="submit" value="Borrar">
 	</div>
 	</div>
 	<div class="mainImage"id="contacto">
