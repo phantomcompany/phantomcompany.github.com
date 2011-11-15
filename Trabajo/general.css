@@ -6,12 +6,11 @@
 	body{
 		background-color:black;
 		background-repeat: no-repeat;
-		
 	}
 	
 	#contenedor
 	{
-		background-image: url('Fuego-naranja.jpg');
+		background-image: url('estilo/Imagen_fondo1.jpg');
 		height:780px;
 		width:1024;
 		margin: 0 auto;
@@ -121,7 +120,7 @@
 	p
 	{
 		text-align: justify;
-		color:#9BD7D5;	
+		color:#6A92C0;	
 	}
 	.mainImage
 	{	
@@ -162,17 +161,11 @@
 		 width: 500px;
 		 height: 200px;
 		 margin-top:30px;
-		 margin-left:25px;	
-		
+		 margin-left:25px;		
 	}
 	#form p
 	{
 		color:#F4A817;;
-	}
-	#form span{
-		color:#9BD7D5;
-		font-weight:bold;
-	
 	}
 	.nombre
 	{
