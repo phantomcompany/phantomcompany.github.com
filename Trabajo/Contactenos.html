@@ -9,47 +9,6 @@
 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
 	<script type="text/javascript" src="Gmaps.js"></script>
 	
-	<script type="text/javascript" >
-		var map;
-			$(document).ready(function()
-			{
-				map=new GMaps(
-				{
-					div: '#map',
-					lat: -12.060149,
-					lng: -76.993649
-					
-				});
-			map.setContextMenu(
-			{
-				control: 'map',
-				options: 
-				[{
-					title: 'Add Marker',
-					name: 'add_marker',
-					action: function(e)
-					{
-						this.addMarker
-						({
-							lat: e.latLng.lat(),
-							lng: e.latLng.lng(),
-							title: 'New Marker'
-						});
-					this.hideContextMenu();
-					}
-				},
-				{
-					title: 'Center here',
-					name: 'center_here',
-					action: function(e)
-					{
-						this.setCenter(e.latLng.lat(),e.latLng.lng());
-					}	
-				},]
-			
-			});
-			});
-		</script>
 	</head>
 	<body>
 	<div id="contenedor" >
@@ -120,7 +79,8 @@
 	</div>
 	<div class="row">
 			<div class="spam11">
-				<div id="map"></div>
+				<div id="map">
+				<iframe width="282" height="180" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.pe/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Ate+Lima+Manuel+Bonnemaison+175&amp;aq=&amp;sll=-9.19345,-75.00284&amp;sspn=24.416692,43.286133&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=Manuel+Bonnemaison,+Ate+Vitarte,+Miraflores,+Lima+Region&amp;t=m&amp;z=14&amp;ll=-12.060149,-76.993649&amp;output=embed"></iframe><br />
 			</div>
 		</div>
 	
