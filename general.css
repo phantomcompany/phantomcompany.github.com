@@ -161,7 +161,7 @@
 		 width: 500px;
 		 height: 200px;
 		 margin-top:30px;
-		 margin-left:25px;		
+		 margin-left:150px;		
 	}
 	#form p
 	{
@@ -232,7 +232,7 @@
 		width:282;
 		height: 180px;
 		margin-left: 600px;
-		margin-top: 440px;
+		margin-top: 250px;
 		-moz-box-shadow: 0px 5px 20px #ccc;
 		-webkit-box-shadow: 0px 5px 20px #ccc;
 		box-shadow: 0px 5px 20px #ccc;
