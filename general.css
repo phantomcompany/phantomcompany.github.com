@@ -130,7 +130,13 @@
 		margin-left:530px ;
 		position: absolute;	
 	}
-	.mainText p::first-letter
+	
+	.alerta 
+	{
+		color: Red;
+		display: none;
+	}
+		.mainText p::first-letter
 	{
 		font-size:30px;	
 	}
@@ -155,18 +161,14 @@
 	}
 	#form
 	{
-		font-size: 16px;
-		text-align:left;
+		
 		 position:absolute;
 		 width: 500px;
 		 height: 200px;
-		 margin-top:30px;
-		 margin-left:150px;		
+		 margin-top:50px;
+		 margin-left:40px;		
 	}
-	#form p
-	{
-		color:#F4A817;;
-	}
+	
 	.nombre
 	{
 		margin-top:5px;
@@ -205,15 +207,15 @@
 	#botonEnviar
 	{
 		position:absolute;
-		margin-left:190px;
-		margin-top: 15px;
+		margin-left:-200px;
+		margin-top: 100px;
 		color:black;
 	}
 	#botonBorrar
 	{
 		position:absolute;
-		margin-left:270px;
-		margin-top: 15px;
+		margin-left:-120px;
+		margin-top: 100px;
 		color:black;
 	}
 	#contacto
@@ -232,7 +234,7 @@
 		width:282;
 		height: 180px;
 		margin-left: 600px;
-		margin-top: 250px;
+		margin-top: 240px;
 		-moz-box-shadow: 0px 5px 20px #ccc;
 		-webkit-box-shadow: 0px 5px 20px #ccc;
 		box-shadow: 0px 5px 20px #ccc;
@@ -298,6 +300,7 @@
 		height: 100px;
 		margin-left: 520px;
 	}
+	
 	#Siguenos a:hover
 	{
 		border:1px solid #F4A817;
